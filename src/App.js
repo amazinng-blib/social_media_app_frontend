@@ -1,8 +1,11 @@
-import "./App.css"
+import './App.css';
+import HomePage from './pages/HomePage/HomePage';
 function App() {
   return (
     <div className="App">
-        Subscribe Zainkeeps code
+      <div className="blur" style={{ top: '-18%', right: '0' }}></div>
+      <div className="blur" style={{ top: '36%', left: '-12rem' }}></div>
+      <HomePage />
     </div>
   );
 }
