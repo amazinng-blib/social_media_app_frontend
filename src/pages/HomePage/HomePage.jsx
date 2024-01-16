@@ -1,15 +1,15 @@
 import React from 'react';
 import './HomePage.css';
 import ProfileSide from '../../Components/ProfileSide/ProfileSide';
+import PostSide from '../../Components/PostSide/PostSide';
+import RightSide from '../../Components/RightSide/RightSide';
 
 const HomePage = () => {
   return (
     <div className="Home">
-      <div className="profileSide">
-        <ProfileSide />
-      </div>
-      <div className="postSide">Post</div>
-      <div className="rightSide">Right side</div>
+      <ProfileSide />
+      <PostSide />
+      <RightSide />
     </div>
   );
 };
