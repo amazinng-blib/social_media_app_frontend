@@ -65,6 +65,17 @@ function ProfileModal({ modalOpen, setModalOpen }) {
               placeholder="Relationship Status"
             />
           </div>
+          <div>
+            Profile Image
+            <input
+              type="file"
+              name="profileImg"
+              style={{ cursor: 'pointer' }}
+            />
+            Cover Image
+            <input type="file" name="coverImg" style={{ cursor: 'pointer' }} />
+          </div>
+          <button className="button infoButton">Update</button>
         </form>
       </Modal>
     </>
